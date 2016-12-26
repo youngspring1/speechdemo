@@ -2,7 +2,7 @@
 var bingClientTTS = new BingTTS.Client("46adbdd87c3e442d92bb33e7f5b5d317");
 document.getElementById("speakBtn").addEventListener("click", function () {
     bingClientTTS.multipleXHR = document.getElementById("multipleXHRChk").checked;
-    bingClientTTS.synthesize("おはようございます", BingTTS.SupportedLocales.jpJP_Female);
+    bingClientTTS.synthesize("how are you", BingTTS.SupportedLocales.jpJP_Female);
     bingClientTTS.synthesize("天気がいいから、散歩しましょう。", BingTTS.SupportedLocales.jpJP_Female);
 //    bingClientTTS.synthesize("Salut, je m'appelle David", BingTTS.SupportedLocales.frFR_Female);
 //    bingClientTTS.synthesize("Enchanté de faire votre connaissance!", BingTTS.SupportedLocales.frFR_Male);
