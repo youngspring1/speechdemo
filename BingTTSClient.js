@@ -371,12 +371,12 @@ var BingTTS;
                     supportedLocaleValue = "Microsoft Server Speech Text to Speech Voice (it-IT, Cosimo, Apollo)";
                     break;
                 case SupportedLocales.jpJP_Female:
-                    locale = "'jp-jp'";
+                    locale = "'ja-jp'";
                     gender = "'Female'";
                     supportedLocaleValue = "Microsoft Server Speech Text to Speech Voice (ja-JP, Ayumi, Apollo)";
                     break;
                 case SupportedLocales.jpJP_Male:
-                    locale = "'jp-jp'";
+                    locale = "'ja-jp'";
                     gender = "'Male'";
                     supportedLocaleValue = "Microsoft Server Speech Text to Speech Voice (ja-JP, Ichiro, Apollo)";
                     break;
