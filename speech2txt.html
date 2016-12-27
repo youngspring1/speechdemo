@@ -106,7 +106,11 @@ document is confidential and proprietary to Microsoft. It is disclosed and can b
                 setText(response);
             }
             client.onFinalResponseReceived = function (response) {
-                setText(JSON.stringify(response));
+                // parse response
+                // add by xuyc 2016/12/27 start
+                setText(response[0].display);
+                //setText(JSON.stringify(response));
+                // add by xuyc 2016/12/27 end
             }
             client.onIntentReceived = function (response) {
                 setText(response);
